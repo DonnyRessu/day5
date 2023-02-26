@@ -1,0 +1,32 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.container-blog-details {
+    width: 80%;
+    margin: 20px auto;
+    /* background-color: aqua; */
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.up-container {
+    display: flex;
+    /* gap: 40px; */
+    justify-content: space-between;
+}
+
+
+.up-container  div img {
+    width: 700px;
+    height: 300px;
+}
+
+
+.right-container i {
+    font-size: 30px;
+}

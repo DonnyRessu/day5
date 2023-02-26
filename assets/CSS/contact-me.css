@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+.container-form {
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+input, select, textarea{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    resize: none;
+    box-shadow: 0 0 5px black;
+    box-sizing: border-box  ;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+
+.btn-contact-me {
+    text-align: right;
+}
+
+button{
+    padding: 5px 20px;
+    margin-top: 10px;
+    background-color: rgb(2, 2, 47) ;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}

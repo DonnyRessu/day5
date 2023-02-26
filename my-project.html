@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/my-project.css">
+    <title>My Project</title>
+</head>
+<body>
+    <!-- navbar -->
+<nav>
+    <div class="nav-left">
+        <ul>
+            <li><a href="index.html"><img class="logo" src="assets/image/logo.png"></a></li>
+            <li style="font-weight: bold;"><a href="index.html">Home</a></li>
+            <li><a href="my-project.html">My Project</a></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <a href="contact-me.html">Contact Me</a>
+    </div>
+</nav>
+
+<!-- end navbar -->
+
+<!-- container form -->
+<div class="container-form">
+    <h1>ADD MY PROJECT</h1>
+    <form onsubmit="getData(event)">
+        <label for="project-name">Project Name</label><br>
+        <input type="text" id="project-name"><br>
+        <div class="start-end">
+            <div>
+                <label for="start-date">Start Date</label><br>
+                <input type="date" id="start-date"><br>
+            </div>
+            <div>
+                <Label for="end-date">End Date</Label><br>
+                <input type="date" id="end-date">
+            </div>
+        </div>
+        <label for="description">Description</label><br>
+        <textarea id="description"></textarea><br>
+        <div>
+            <label for="technologies">Technologies</label><br>
+            <input type="checkbox" value="fa-node-js" id="node-js">
+            <label for="node-js" style="margin-right: 40px;">Node JS</label>
+            <input type="checkbox" value="fa-react" id="react-js">
+            <label for="react-js">React JS</label><br>
+            <input type="checkbox" value="fa-java" id="java">
+            <label for="java" style="margin-right: 65px;">Java</label>
+            <input type="checkbox" value="fa-php" id="php">
+            <label for="php">php</label><br>
+        </div>
+        <div id="upload-image-container">
+            <label>Upload Image</label>
+            <div class="ab">
+                <label for="upload-image">
+                    <span>choose
+                        <input type="file" id="upload-image"/>
+                        <i class="fa-solid fa-paperclip fa-lg"></i>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="button-project">
+            <button>Submit</button>
+        </div>
+    </form>
+</div>
+<!-- end container form -->
+
+<!-- project details -->
+<div id="container-project-details">
+    <h1>My Project</h1>
+    <div id="isi-projects" class="isi-project">
+        <div class="project-list">
+            <img src="assets/image/project-image.jpg">
+            <a href="project-detail.html"><h5>Dumbways Mobile app - 2021</h5></a>
+            <p class="p1">durasi: 3 bulan</p>
+            <p class="p2">app that used for dumbways student, it was deployed and can download on playstores.</p>
+            <p class="p3">happy download</p>
+            <div class="logo-project">
+                <i class="fa-brands fa-node-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-php"></i>
+            </div>
+            <div class="button-project-list">
+                <button class="button-edit">edit</button>
+                <button class="button-delete">delete</button>
+            </div>
+        </div>
+        <div class="project-list">
+            <img src="assets/image/project-image.jpg">
+            <a href="project-detail.html"><h5>Dumbways Mobile app - 2021</h5></a>
+            <p class="p1">durasi: 3 bulan</p>
+            <p class="p2">app that used for dumbways student, it was deployed and can download on playstores.</p>
+            <p class="p3">happy download</p>
+            <div class="logo-project">
+                <i class="fa-brands fa-node-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-php"></i>
+            </div>
+            <div class="button-project-list">
+                <button class="button-edit">edit</button>
+                <button class="button-delete">delete</button>
+            </div>
+        </div>
+        <div class="project-list">
+            <img src="assets/image/project-image.jpg">
+            <a href="project-detail.html"><h5>Dumbways Mobile app - 2021</h5></a>
+            <p class="p1">durasi: 3 bulan</p>
+            <p class="p2">app that used for dumbways student, it was deployed and can download on playstores.</p>
+            <p class="p3">happy download</p>
+            <div class="logo-project">
+                <i class="fa-brands fa-node-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-php"></i>
+            </div>
+            <div class="button-project-list">
+                <button class="button-edit">edit</button>
+                <button class="button-delete">delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end project details -->
+
+<script src="assets/JS/my-project.js"></script>
+</body>
+
+</html>
