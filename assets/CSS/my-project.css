@@ -75,56 +75,31 @@ margin-top: 10px;
 }
 
 
-
 .ab {
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
     background: white;
     padding: 5px 20px;
+    margin-top: 5px;
+    box-shadow: 0 0 5px black;
 }
 
 
-
-
-
-
-
-
-/* #upload-image-container > label:nth-child(2) > input {
-display: none;
+.ab p {
+    background-color: gray;
+    padding: 5px 20px;
+    margin-left: -20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    color: rgb(186, 185, 185);
 }
 
-
-#upload-image-container > label:nth-child(2) {
-border-radius: 5px;
-border: none;
-box-shadow: 0 0 5px rgba(29, 29, 29, 0.25);
-margin-top: 5px;
-margin-bottom: 20px;
-background-color: #ffffff;
-display: flex;
-align-items: center;
-justify-content: space-between;
+.ab label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
-
-
-#upload-image-container > label:nth-child(2) > span {
-background-color: rgba(29, 29, 29, 0.2);
-padding: 10px;
-border-radius: 5px;
-color: rgba(29, 29, 29, 0.5);
-}
-
-
-#upload-image-container > label:nth-child(2) > i {
-margin-right: 10px;
-color: #001736;
-}
-  
-
-#upload-image-container:hover > label:nth-child(2) > i {
-color: #006bff; */
-/* } */
 
 
 .button-project {
